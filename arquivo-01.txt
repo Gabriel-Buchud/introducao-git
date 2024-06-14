@@ -1,7 +1,10 @@
-Arquivo de teste destinado à estudos sobre git e github. :)
+----- Arquivo de teste destinado aos estudos sobre git e github. :) ----- 
 
 
 Adicionando uma nova branch > git checkout -b dev
-** git checkout: permite navegar entre ramificações criadas pelo git branch**
-** O comando git branch "nome da branch" apenas cria a branch, você continua na sua branch atual, já o git checkout -b "nome da branch" cria a branch e muda para ela.**
-** dev é nome da branch criada, a escolha do nome fica a critério de quem for criar essa nova branch**
+
+**/ git checkout: permite navegar entre ramificações criadas pelo git branch. /**
+**/ Uso do -b: O comando (git branch "nome da branch") apenas cria a branch mas você continua na sua branch atual, já o comando (git checkout -b "nome da branch") cria a branch e muda para ela. /**
+**/ dev é nome da branch criada, a escolha do nome fica a critério de quem for criar essa nova branch. /**
+
+**/ lembre-se que nesse caso não se pode usar o comando (git push origin main), pois o main deve ser trocado pelo nome da nova branch que nesse caso é (git push origin dev)./**
